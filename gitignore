@@ -1,0 +1,57 @@
+# ===========================================
+# Rust - Cargo build and artifacts
+# ===========================================
+
+# Build directory
+/target/
+
+# Executable binaries
+**/*.rs.bk
+**/*.exe
+**/*.out
+**/*.o
+**/*.so
+**/*.dll
+**/*.dylib
+
+# Cargo package files
+Cargo.lock
+
+# Backup files
+*.bak
+*.tmp
+*.swp
+
+# Logs
+*.log
+
+# IDEs and Editors
+# ----------------
+
+# VS Code
+.vscode/
+
+# JetBrains (CLion, IntelliJ, etc.)
+.idea/
+*.iml
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# MacOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Node.js (if you use frontend in the same repo)
+node_modules/
+
+# Optional - Gitignore the .env file if you're storing secrets
+.env
+.env.*
